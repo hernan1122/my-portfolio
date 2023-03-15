@@ -122,7 +122,7 @@ span {
     padding: 0 50px;
   }
   .menu-links .ul {
-    width: 350px;
+    width: 340px;
     height: 100vh;
     padding: 25px 0 0 15px;
     position: absolute;
@@ -134,7 +134,7 @@ span {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 20px;
-    transform: translateX(350px);
+    transform: translateX(340px);
     transition: 0.3s ease all;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 38% 100%);
   }
@@ -168,7 +168,7 @@ span {
     left: 25px;
   }
   #cv {
-    width: 92px;
+    width: 94px;
     position: absolute;
     top: 75px;
     left: 35px;
