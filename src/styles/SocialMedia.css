@@ -1,0 +1,69 @@
+.socialMedia-container {
+  margin: 50px 0;
+  gap: 40px;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialMedia-container a {
+  width: 53px;
+  height: 53px;
+  font-size: 45px;
+  padding: 15px;
+  background-color: var(--circle);
+  color: var(--text-icon-hover);
+  border-radius: 100px;
+  transition: 300ms;
+}
+.socialMedia-container a i {
+  width: 40px;
+}
+.linkedin:hover {
+  background-color: var(--circle-hover);
+  transform: scale(1.5, 1.5);
+  color: #0073b1;
+}
+.whatsapp:hover {
+  background-color: var(--circle-hover);
+  transform: scale(1.5, 1.5);
+  color: #4dc247;
+}
+.github:hover {
+  background-color: var(--circle-hover);
+  transform: scale(1.5, 1.5);
+  color: #171515;
+}
+/* .instagram:hover {
+  background-color: var(--circle-hover);
+  transform: scale(1.5, 1.5);
+  color: #D43089;
+}
+.facebook:hover {
+  background-color: var(--circle-hover);
+  transform: scale(1.5, 1.5);
+  color: #3b5998;
+} */
+
+/* media */
+@media (max-width: 768px) {
+  .linkedin:hover,
+  .whatsapp:hover,
+  .github:hover {
+    transform: scale(1.3, 1.3);
+  }
+  .socialMedia-container a {
+  width: 48px;
+  height: 48px;
+  font-size: 42px;
+  }
+}
+
+@media (max-width: 480px) {
+  .socialMedia-container a {
+  width: 48px;
+  height: 48px;
+  font-size: 42px;
+  }
+}
