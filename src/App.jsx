@@ -134,7 +134,7 @@ function App() {
           </h2>
           <a
             className='portfolio-repository'
-            href='https://github.com/hernan1122/portafolio'
+            href='https://github.com/hernan1122/my-portfolio'
             target="_blank"
             data-aos="zoom-in"
           >
