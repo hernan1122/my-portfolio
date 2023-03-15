@@ -126,7 +126,7 @@ span {
     height: 100vh;
     padding: 25px 0 0 15px;
     position: absolute;
-    top: 80px;
+    top: 79px;
     right: 0;
     background-color: var(--menu-background);
     display: flex;
@@ -139,7 +139,7 @@ span {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 38% 100%);
   }
   .menu-links .ul.open {
-    transform: translateX(0px);
+    transform: translateX(1px);
   }
   .menu-links .ul li a:hover::after {
     width: 55px;
