@@ -141,6 +141,9 @@ span {
   .menu-links .ul.open {
     transform: translateX(1px);
   }
+  .menu-links .ul li a {
+    font-size: 1.6rem;
+  }
   .menu-links .ul li a:hover::after {
     width: 55px;
   }
@@ -151,24 +154,24 @@ span {
     margin-right: 15px;
   }
   #aboutMe {
-    width: 107px;
+    width: 112px;
     position: absolute;
     left: 5px;
   }
   #myJobs {
-    width: 97px;
+    width: 100px;
     position: absolute;
     top: 25px;
     left: 15px;
   }
   #contactMe {
-    width: 119px;
+    width: 125px;
     position: absolute;
     top: 50px;
     left: 25px;
   }
   #cv {
-    width: 94px;
+    width: 97px;
     position: absolute;
     top: 75px;
     left: 35px;
