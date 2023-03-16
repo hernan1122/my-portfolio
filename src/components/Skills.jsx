@@ -43,7 +43,7 @@ export function Skills() {
             <i className='icon-skills'>
               <FaReact />
             </i>
-            <h4>REACT.JS</h4>
+            <h4>REACT</h4>
           </div>
         </div>
       </div>
