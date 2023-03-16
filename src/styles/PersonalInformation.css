@@ -6,6 +6,7 @@
   align-items: center;
 }
 .personal-container ul li {
+  width: 250px;
   margin-bottom: 12px;
   padding-bottom: 2px;
   list-style: none;
