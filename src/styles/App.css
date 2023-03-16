@@ -97,9 +97,6 @@ p {
   transition: 0.4s all ease-in-out;
   z-index: 100;
 }
-.theme-toggle:hover {
-  background-color: var(--text-icon-hover);
-}
 .theme-toggle i {
   font-size: 25px;
   color: var(--icon);
