@@ -1,10 +1,5 @@
 body {
   font-family: 'Ubuntu', sans-serif;
-  /* background-image: url('../src/images/background3.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
-  /* background-color: var(--background); */
 }
 .Jobs {
   padding: 30px 130px 50px 130px;
@@ -42,9 +37,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--job-shadow);
+  background-color: var(--circle);
   color: var(--text-primary);
-  border: 1.5px solid var(--text-primary);
   border-radius: 10px;
   cursor: pointer;
   transition: .8s;
@@ -72,12 +66,8 @@ body {
 }
 .portfolio-repository i {
   font-size: 35px;
+  color: var(--icon);
 }
-
-/* padding: 50px 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 240px);
-  place-content: center; */
 
 /* media */
 @media (max-width: 1000px) {

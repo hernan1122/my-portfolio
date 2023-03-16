@@ -5,12 +5,14 @@
 }
 :root {
   --background: #eff3f5;
+  --background-contact: #dde4e7;
   --text-primary: #323335;
   --text-header: #323335;
   --text-header-mobile: #eff3f5;
   --text-icon-hover: #086594;
   --circle: #dddddd;
   --circle-hover: #bebebe;
+  --icon: #525252;
   --menu-background: #eff3f5ee;
   --menu-shadow: #00000010;
   --job-shadow: #ddd7d7;
@@ -18,14 +20,15 @@
 }
 [data-theme = 'dark'] {
   --background: #202c33;
+  --background-contact: #1e282e;
   --text-primary: #e9edef;
   --text-header: #323335;
   --text-header-mobile: #eff3f5;
   --text-icon-hover: #086594;
-  /* --circle: #aebac1; */
   --circle: #1a242b;
-  /* --circle-hover: #96a6af; */
   --circle-hover: #11191f;
+  /* --background-contact: #aebac1; */
+  --icon: #96a6af;
   --menu-background: #202c33f8;
   --menu-shadow: #00000038;
   --job-shadow: #192229;
@@ -78,7 +81,6 @@ p {
   font-weight: 300;
   color: var(--text-primary);
 }
-
 .theme-toggle {
   width: 85px;
   margin-left: 10px;
@@ -100,7 +102,7 @@ p {
 }
 .theme-toggle i {
   font-size: 25px;
-  color: var(--text-primary);
+  color: var(--icon);
   display: flex;
   justify-content: center;
   align-items: center;

@@ -44,7 +44,7 @@
 .jb-container-description-icon {
   padding-left: 16px;
   font-size: 35px;
-  color: var(--text-primary);
+  color: var(--icon);
   text-decoration: none;
   display: flex;
   justify-content: center;

@@ -11,7 +11,7 @@ import { BsFilePersonFill } from 'react-icons/bs'
 
 export function Menu() {
   const [isOpen, setIsOpen] = useState(false)
-  console.log(isOpen);
+  
   const handleClick = () => {
     setIsOpen(!isOpen)
   }

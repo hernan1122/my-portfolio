@@ -1,23 +1,19 @@
 .footer-container {
   width: 100%;
   height: auto;
-  background-image: url('../images/portada-header.avif');
+  padding: 50px 130px 0 130px;
+  background: var(--background-contact);
+  /* background-image: url('../images/portada-header.avif');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   flex-direction: column;
   display: grid;
   place-items: center;
 }
 .footer-container .footer-container-title {
   width: 100%;
-}
-.container-content {
-  padding: 50px 130px 0 130px;
-  width: 100%;
-  height: 100%;
-  backdrop-filter: blur(5px);
 }
 .contact-icon {
   margin-right: 10px;
@@ -28,7 +24,7 @@
   margin-top: 50px;
   font-size: 1.7rem;
   font-weight: 300;
-  color: var(--text-header-mobile);
+  color: var(--text-primary);
   display: grid;
   place-items: center;
 }
@@ -36,18 +32,12 @@
 /* media */
 @media (max-width: 768px) {
   .footer-container {
-    padding: 0;
-  }
-  .container-content {
     padding: 50px 50px 0 50px;
   }
 }
 
 @media (max-width: 480px) {
   .footer-container {
-    padding: 0;
-  }
-  .container-content {
     padding: 50px 20px 0 20px;
   }
   .footer-container-title h2 {
