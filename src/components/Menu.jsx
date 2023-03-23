@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 /* import { HamburgerIcon } from './HamburgerIcon' */
 import '../styles/Menu.css'
 import cv from '../downloads/cv-axel-torrico.pdf'
@@ -16,10 +16,22 @@ export function Menu() {
     setIsOpen(!isOpen)
   }
 
+  let menuRef = useRef()
+
+  useEffect(() => {
+    const handler = (e) => {
+      if (!menuRef.current.contains(e.target)) {
+        setIsOpen(false)
+      }
+    }
+
+    document.addEventListener('mousedown', handler)
+  }, [])
+
   return (
     <nav className='menu-container'>
       <a className='menu-title' href='#home'>Portfolio | <span>Axel Torrico</span></a>
-      <div className='menu-links'>
+      <div className='menu-links' ref={menuRef}>
         <ul className={`ul ${isOpen && 'open'}`}>
           <li>
             <a id='aboutMe' href="#about" onClick={handleClick}>
