@@ -1,6 +1,15 @@
 body {
   font-family: 'Ubuntu', sans-serif;
 }
+/* barra de scroll */
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: #202c33;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #086594;
+  border-radius: 10px;
+}
 .Jobs {
   padding: 30px 130px 50px 130px;
   background-color: var(--background);

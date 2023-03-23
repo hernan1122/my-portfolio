@@ -6,7 +6,7 @@ import { Contact } from "./components/Contact"
 import './styles/App.css'
 
 //images
-import todoList from './images/todo-list2.png'
+import todoList from './images/todo-list.png'
 import moch from './images/moch-movies.png'
 import criptar from './images/criptar.png'
 import batatabit from './images/Batatabit.png'
@@ -21,7 +21,6 @@ import { MdOutlineWbSunny } from 'react-icons/md'
 import { BiMoon } from 'react-icons/bi'
 import { AiOutlineGithub } from 'react-icons/ai'
 import { GoTools } from 'react-icons/go'
-import { RiEye2Line } from 'react-icons/ri'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
