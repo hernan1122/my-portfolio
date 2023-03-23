@@ -22,22 +22,22 @@ export function Menu() {
       <div className='menu-links'>
         <ul className={`ul ${isOpen && 'open'}`}>
           <li>
-            <a id='aboutMe' href="#about">
+            <a id='aboutMe' href="#about" onClick={handleClick}>
               <BsFillPersonFill className='menu-icon'/> About me
             </a>
           </li>
           <li>
-            <a id='myJobs' href="#jobs">
+            <a id='myJobs' href="#jobs" onClick={handleClick}>
               <GoTools className='menu-icon' /> My Jobs
             </a>
           </li>
           <li>
-            <a id='contactMe' href="#contacts">
+            <a id='contactMe' href="#contacts" onClick={handleClick}>
               <AiFillPhone className='menu-icon' /> Contact me
             </a>
           </li>
           <li>
-            <a id='cv' className="cv" download='CV Axel Torrico' href={cv}>
+            <a id='cv' className="cv" download='CV Axel Torrico' href={cv} onClick={handleClick}>
               <BsFilePersonFill className='menu-icon' /> C. Vitae
             </a>
           </li>
