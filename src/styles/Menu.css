@@ -122,7 +122,7 @@ span {
     padding: 0 50px;
   }
   .menu-links .ul {
-    width: 340px;
+    width: 300px;
     height: 100vh;
     padding: 25px 0 0 15px;
     position: absolute;
@@ -134,9 +134,9 @@ span {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 20px;
-    transform: translateX(340px);
+    transform: translateX(300px);
     transition: 0.3s ease all;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 38% 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 38% 100%); */
   }
   .menu-links .ul.open {
     transform: translateX(1px);
@@ -145,7 +145,7 @@ span {
     font-size: 1.6rem;
   }
   .menu-links .ul li a:hover::after {
-    width: 55px;
+    width: 60px;
   }
   .menu-links .ul li a:hover::after {
     left: 2px;
@@ -153,7 +153,7 @@ span {
   .menu-icon {
     margin-right: 15px;
   }
-  #aboutMe {
+  /* #aboutMe {
     width: 112px;
     position: absolute;
     left: 5px;
@@ -175,7 +175,7 @@ span {
     position: absolute;
     top: 75px;
     left: 35px;
-  }
+  } */
   .nav-icon-5 {
     display: inline-block;
   }
