@@ -185,4 +185,8 @@ span {
   .menu-container {
     padding: 0 20px;
   }
+  .menu-links .ul {
+    width: 250px;
+    transform: translateX(250px);
+  }
 }
