@@ -82,22 +82,23 @@ p {
   color: var(--text-primary);
 }
 .theme-toggle {
-  width: 85px;
+  width: auto;
   margin-left: 10px;
-  padding: 8px 12px;
+  padding: 12px;
+  background: radial-gradient(var(--background), transparent);
   position: fixed;
-  top: 18px;
+  top: 15px;
   left: 310px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border: 1px solid var(--circle-hover);
-  border-radius: 10px;
+  border-radius: 100px;
   cursor: pointer;
   transition: 0.4s all ease-in-out;
   z-index: 100;
 }
-.theme-toggle i {
+.theme-toggle .icon-theme {
   font-size: 25px;
   color: var(--icon);
   display: flex;
@@ -136,12 +137,10 @@ h5 {
 
 @media (max-width: 731px) {
   .theme-toggle {
-    width: 65px;
-    margin-left: 10px;
-    padding: 8px 10px;
-    top: 22px;
+    padding: 10px;
+    top: 17px;
     left: 225px;
-    border-radius: 10px;
+    border-radius: 100px;
   }
   .theme-toggle i {
     font-size: 18px;
@@ -150,6 +149,6 @@ h5 {
 
 @media (max-width: 480px) {
   .theme-toggle {
-    left: 199px;
+    left: 212px;
   }
 }

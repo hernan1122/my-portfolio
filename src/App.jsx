@@ -106,21 +106,22 @@ const jobs = [
 
 function App() {
   const [theme, setTheme] = useState('theme' ? 'dark' : 'light')
+  const [iconTheme, setIconTheme] = useState(true)
+
+  const changeIconTheme = () => {
+    setIconTheme(!iconTheme)
+  }
 
   const switchTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light'
     setTheme(newTheme)
+    changeIconTheme()
   }
 
   return (
     <div div data-theme={theme}>
       <div id='theme' className='theme-toggle' onClick={switchTheme}>
-        <i>
-          <MdOutlineWbSunny />
-        </i>
-        <i>
-          <BiMoon />
-        </i>
+        {iconTheme ? <BiMoon className='icon-theme' /> : <MdOutlineWbSunny className='icon-theme' />}
       </div>
 
       <Header />
@@ -167,3 +168,13 @@ function App() {
 }
 
 export default App
+
+
+{/* <div id='theme' className='theme-toggle' onClick={switchTheme}>
+        <i>
+          <MdOutlineWbSunny />
+        </i>
+        <i>
+          <BiMoon />
+        </i>
+      </div> */}
