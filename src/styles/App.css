@@ -85,7 +85,6 @@ p {
   width: auto;
   margin-left: 10px;
   padding: 12px;
-  background: radial-gradient(var(--background), transparent);
   position: fixed;
   top: 15px;
   left: 310px;
