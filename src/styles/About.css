@@ -1,7 +1,6 @@
 .about-container {
   padding: 50px 130px 0 130px;
   background-color: var(--background);
-  text-align: center;
   display: flex;
   flex-direction: column;
   gap: 20px;
