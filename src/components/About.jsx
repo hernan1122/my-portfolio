@@ -12,7 +12,7 @@ AOS.init({
   duration: 400,
 });
 
-export function About(props) {
+export function About() {
   return (
     <div id="about" className="about-container" >
       <div className="about-container-title">
@@ -22,14 +22,17 @@ export function About(props) {
       </div>
       <div data-aos="fade-up">
         <p className="about-container-text">
-          Hi, my name is Axel, I am 23 years old, I am a young man with a great desire to grow professionally and personally.
+          Hi, I'm Axel, a passionate Frontend Developer with experience in creating attractive and functional web experiences. My focus is on building intuitive and user-friendly interfaces using technologies such as HTML, CSS, JavaScript, and React.js.
         </p>
         <br />
         <p className="about-container-text">
-          I consider myself a responsible, punctual, proactive and friendly person. I am good at working individually and in groups. I study CANTERA SOFTWARE programming in.
+          I am an efficient and flexible collaborator, capable of adapting to changes and working in a team. My goal is to develop high-quality digital solutions that combine an excellent user interface with optimal performance. I am excited to take on new challenges and exciting projects that allow me to continue growing professionally.
+        </p>
+        <br />
+        <p className="about-container-text">
+          I am excited to tackle new challenges and exciting projects that allow me to continue growing professionally.
         </p>
       </div>
-
       <section className="about-container-content">
         <PersonalInformation />
         <Skills />
