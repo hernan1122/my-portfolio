@@ -1,4 +1,4 @@
-import '../styles/MyInteresets.css'
+import '../styles/SkillsMyInteresets.css'
 
 //icons
 import { MdDirectionsBike } from 'react-icons/md'
@@ -17,47 +17,47 @@ AOS.init({
 
 export function MyInteresets() {
   return (
-    <section className="my-interesets">
+    <section className="skills-interesets">
       <h3>My Interesets</h3>
-      <div className="interests-container" data-aos="zoom-in">
-        <section className="interests-container-content">
-          <div className="interests-container-content-circle">
+      <div className="skills-interests-container" data-aos="zoom-in">
+        <section className="skills-interests-container-content">
+          <div className="interests circle">
             <i>
               <MdDirectionsBike />
             </i>
-            <h4>BIKE</h4>
+            <h4>Bike</h4>
           </div>
-          <div className="interests-container-content-circle"> 
+          <div className="interests circle"> 
             <i>
               <MdLibraryMusic />
             </i>
-            <h4>MUSIC</h4>
+            <h4>Music</h4>
           </div>
-          <div className="interests-container-content-circle">
+          <div className="interests circle">
             <i>
               <FaPlane />
             </i>
-            <h4>TRAVEL</h4>
+            <h4>Travel</h4>
           </div>
         </section>
-        <section className="interests-container-content">
-          <div className="interests-container-content-circle">
+        <section className="skills-interests-container-content">
+          <div className="interests circle">
             <i>
               <FaDog />
             </i>
-            <h4>ANIMALS</h4>
+            <h4>Animals</h4>
           </div>
-          <div className="interests-container-content-circle">
+          <div className="interests circle">
             <i>
               <FaBook />
             </i>
-            <h4>BOOKS</h4>
+            <h4>Books</h4>
           </div>
-          <div className="interests-container-content-circle">
+          <div className="interests circle">
             <i>
               <MdPhotoCamera />
             </i>
-            <h4>PHOTOS</h4>
+            <h4>Photos</h4>
           </div>
         </section>
       </div>
