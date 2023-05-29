@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
-/* import { HamburgerIcon } from './HamburgerIcon' */
+import cv from '../downloads/cv_axel_torrico.pdf'
 import '../styles/Menu.css'
-import cv from '../downloads/cv-axel-torrico.pdf'
 
 //icons
 import { BsFillPersonFill } from 'react-icons/bs'
