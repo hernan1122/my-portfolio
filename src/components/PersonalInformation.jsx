@@ -26,7 +26,7 @@ export function PersonalInformation() {
         </li>
         <li>
           <h4>Address</h4>
-          <p>Las Heras, Mendoza, Argentina</p>
+          <p>Mendoza, Argentina</p>
         </li>
       </ul>
     </section>
