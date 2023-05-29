@@ -5,14 +5,13 @@ import '../styles/Form.css'
 
 export function Form() {
   const form = useRef();
-  const { register, formState: { errors }, handleSubmit } = useForm()
+  const { register, formState: { errors }, handleSubmit, reset } = useForm()
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-
+  const sendEmail = () => {
     emailjs.sendForm('service_hi4mvqe', 'template_n1bh8so', form.current, 'pvT5sYNTsZVPOqsxD')
       .then((result) => {
-          console.log(result.text);
+        console.log(result.text);
+        reset()
       }, (error) => {
           console.log(error.text);
       });
