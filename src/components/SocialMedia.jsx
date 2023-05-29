@@ -35,20 +35,6 @@ export function SocialMedia() {
           <BsGithub />
         </i>
       </a>
-      {/* <a
-      className="instagram"
-        href="https://www.instagram.com/axel_hernan_/"
-        target="blank"
-      >
-        <i className="fa-brands fa-instagram"></i>
-      </a>
-      <a
-        className="facebook"
-        href="https://www.facebook.com/axel.torrico.10/"
-        target="blank"
-      >
-        <i className="fa-brands fa-square-facebook"></i>
-      </a> */}
     </section>
   )
 }
