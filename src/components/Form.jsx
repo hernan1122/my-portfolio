@@ -20,7 +20,7 @@ export function Form() {
   return (
     <form className='Form' ref={form} onSubmit={handleSubmit(sendEmail)}>
       <div className='Form-content'>
-        <label>Name</label>
+        <label>Name <span className='required'>*</span></label>
         <input
           className={`input ${errors.user_name?.type === 'required' ? 'error' : ''}`}
           type="text"
@@ -30,7 +30,7 @@ export function Form() {
         {errors.user_name?.type === 'required' && <p>Write your name</p>}
       </div>
       <div className='Form-content'>
-        <label>Email</label>
+        <label>Email <span className='required'>*</span></label>
         <input
           className={`input ${errors.user_email?.type === 'required' ? 'error' : ''}`}
           type="email"
@@ -40,7 +40,7 @@ export function Form() {
         {errors.user_email?.type === 'required' && <p>Write your email</p>}
       </div>
       <div className='Form-content'>
-        <label>Message</label>
+        <label>Message <span className='required'>*</span></label>
         <textarea
           className={`input-text ${errors.message?.type === 'required' ? 'error' : ''}`}
           name="message"
