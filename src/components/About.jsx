@@ -26,7 +26,7 @@ export function About() {
         </p>
         <br />
         <p className="about-container-text">
-          I am an efficient and flexible collaborator, capable of adapting to changes and working in a team. My goal is to develop high-quality digital solutions that combine an excellent user interface with optimal performance. I am excited to take on new challenges and exciting projects that allow me to continue growing professionally.
+          I am an efficient and flexible collaborator, capable of adapting to changes and working in a team. My goal is to develop high-quality digital solutions that combine an excellent user interface with optimal performance.
         </p>
         <br />
         <p className="about-container-text">
