@@ -21,7 +21,7 @@
   color: var(--text-icon-hover);
 }
 .footer-container .footer-container-text {
-  margin-top: 50px;
+  margin: 40px 0;
   font-size: 1.7rem;
   font-weight: 300;
   color: var(--text-primary);
