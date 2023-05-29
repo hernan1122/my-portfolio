@@ -13,7 +13,7 @@
   font-size: 1.3rem;
   color: var(--text-primary);
 }
-.Form-content input,
+.Form-content .input,
 .Form-content .input-text {
   height: 40px;
   background: transparent;
@@ -26,13 +26,22 @@
   outline: none;
   z-index: 2;
 }
+.Form-content .error {
+  border-bottom: 1px solid #d31b14;
+}
 .Form-content .input-text {
   height: 70px;
   padding-top: 10px;
 }
-.Form-content input:focus,
+.Form-content .input:focus,
 .Form-content .input-text:focus {
   border-bottom: 2px solid var(--text-icon-hover);
+}
+.Form-content p {
+  padding-top: 4px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #d31b14;
 }
 .Form-button {
   width: 100%;
