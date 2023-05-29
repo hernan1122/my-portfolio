@@ -168,13 +168,3 @@ function App() {
 }
 
 export default App
-
-
-{/* <div id='theme' className='theme-toggle' onClick={switchTheme}>
-        <i>
-          <MdOutlineWbSunny />
-        </i>
-        <i>
-          <BiMoon />
-        </i>
-      </div> */}
