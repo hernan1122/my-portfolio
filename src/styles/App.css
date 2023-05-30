@@ -17,6 +17,7 @@
   --menu-shadow: #00000010;
   --job-shadow: #ddd7d7;
   --job-shadow-hover: #666666;
+  --form-error: #d31b14;
 }
 [data-theme = 'dark'] {
   --background: #202c33;
@@ -27,12 +28,12 @@
   --text-icon-hover: #086594;
   --circle: #1a242b;
   --circle-hover: #11191f;
-  /* --background-contact: #aebac1; */
   --icon: #96a6af;
   --menu-background: #1e282e;
   --menu-shadow: #00000038;
   --job-shadow: #192229;
   --job-shadow-hover: #11191f;
+  --form-error: #d31b14;
 }
 html {
   font-size: 62.5%;
