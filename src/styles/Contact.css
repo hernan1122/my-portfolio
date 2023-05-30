@@ -8,11 +8,10 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed; */
-  flex-direction: column;
   display: grid;
   place-items: center;
 }
-.footer-container .footer-container-title {
+.footer-container-title {
   width: 100%;
 }
 .contact-icon {
@@ -20,7 +19,12 @@
   font-size: 3.5rem;
   color: var(--text-icon-hover);
 }
-.footer-container .footer-container-text {
+.footer-container-content {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.footer-container-text {
   margin: 40px 0;
   font-size: 1.7rem;
   font-weight: 300;
@@ -43,7 +47,7 @@
   .footer-container-title h2 {
     font-size: 3rem;
   }
-  .footer-container .footer-container-text {
+  .footer-container-text {
     font-size: 1.6rem;
     text-align: center;
   }
