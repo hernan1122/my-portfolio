@@ -20,9 +20,11 @@ export function Form() {
   return (
     <form className='Form' ref={form} onSubmit={handleSubmit(sendEmail)}>
       <div className='Form-content'>
-        <label>Name <span className='required'>*</span></label>
+        <label className={`${errors.user_name?.type === 'required' ? 'error-label' : ''}`}>
+          Name <span className='required'>*</span>
+        </label>
         <input
-          className={`input ${errors.user_name?.type === 'required' ? 'error' : ''}`}
+          className={`input ${errors.user_name?.type === 'required' ? 'error-input' : ''}`}
           type="text"
           name="user_name"
           {...register('user_name', { required: true })}
@@ -30,9 +32,11 @@ export function Form() {
         {errors.user_name?.type === 'required' && <p>Write your name</p>}
       </div>
       <div className='Form-content'>
-        <label>Email <span className='required'>*</span></label>
+        <label className={`${errors.user_email?.type === 'required' ? 'error-label' : ''}`}>
+          Email <span className='required'>*</span>
+        </label>
         <input
-          className={`input ${errors.user_email?.type === 'required' ? 'error' : ''}`}
+          className={`input ${errors.user_email?.type === 'required' ? 'error-input' : ''}`}
           type="email"
           name="user_email"
           {...register('user_email', { required: true })}
@@ -40,9 +44,11 @@ export function Form() {
         {errors.user_email?.type === 'required' && <p>Write your email</p>}
       </div>
       <div className='Form-content'>
-        <label>Message <span className='required'>*</span></label>
+        <label className={`${errors.message?.type === 'required' ? 'error-label' : ''}`}>
+          Message <span className='required'>*</span>
+        </label>
         <textarea
-          className={`input-text ${errors.message?.type === 'required' ? 'error' : ''}`}
+          className={`input-text ${errors.message?.type === 'required' ? 'error-input' : ''}`}
           name="message"
           {...register('message', { required: true })}
         />

@@ -1,5 +1,5 @@
 .Form {
-  width: 100%;
+  width: 50%;
   display: grid;
   place-items: center;
 }
@@ -13,9 +13,12 @@
   font-size: 1.3rem;
   color: var(--text-primary);
 }
+.Form-content .error-label {
+  color: var(--form-error);
+}
 .Form-content .required {
   font-size: 1.4rem;
-  color: #d31b14;
+  color: var(--form-error);
 }
 .Form-content .input,
 .Form-content .input-text {
@@ -30,8 +33,8 @@
   outline: none;
   z-index: 2;
 }
-.Form-content .error {
-  border-bottom: 1px solid #d31b14;
+.Form-content .error-input {
+  border-bottom: 1px solid var(--form-error);
 }
 .Form-content .input-text {
   height: 70px;
@@ -44,8 +47,7 @@
 .Form-content p {
   padding-top: 4px;
   font-size: 1.3rem;
-  font-weight: 600;
-  color: #d31b14;
+  color: var(--form-error);
 }
 .Form-button {
   width: 100%;
@@ -67,4 +69,11 @@
 }
 .Form-button:hover {
   transform: scale(0.95, 0.95);
+}
+
+/* media */
+@media (max-width: 1000px) {
+  .Form {
+  width: 100%;
+}
 }
