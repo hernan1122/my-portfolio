@@ -13,12 +13,18 @@ export function Form() {
         console.log(result.text);
         reset()
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
+  }
+
+  const onSubmit = (data) => {
+    if (Object.keys(errors).length === 0) {
+      sendEmail();
+    }
   };
 
   return (
-    <form className='Form' ref={form} onSubmit={handleSubmit(sendEmail)}>
+    <form className='Form' ref={form} onSubmit={handleSubmit(onSubmit)}>
       <div className='Form-content'>
         <label className={`${errors.user_name?.type === 'required' ? 'error-label' : ''}`}>
           Name <span className='required'>*</span>
@@ -57,4 +63,4 @@ export function Form() {
       <input className='Form-button' type="submit" value="Send" />
     </form>
   );
-};
+}
